@@ -1,0 +1,227 @@
+/*Body Layout*/
+.bodycontainer{
+	width: 1460px;
+	height: auto;
+	margin: auto;
+}
+
+/*Header Section*/
+.headercontainer{
+	width: 1460px;
+	height: 150px;
+	border: 1px solid #cccccc;
+	overflow: auto;
+}
+	/*Chanita Nuansri Header Tab*/
+	.nameheader{
+		width: 450px;
+		height: 100px;
+		background-color: #4aaaa5;
+		margin-top: 50px;
+		margin-left: 100px;
+		float: left;
+		font-family: "Georgia", Times, "Times New Roman", serif;
+	}
+		/*Chanita Nuansri Font*/
+		#chanitanuansri{
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			padding-top: 30px;
+		}
+
+		/*Navigation Container*/
+	.navigation{
+		width: 300px;
+		height: 100px;
+		margin-top: 50px;
+		margin-right: 200px;
+		float: right;
+			}
+
+	/*Psotion Navigation Tabs*/
+	#navcontrol{
+		margin: 0;
+		padding: 40px;
+		color: lightgrey;
+		word-spacing: 10px;
+	}
+	/*Change block to inline element*/
+	li{
+		display: inline;
+	}
+
+	a{
+		color: lightgrey; 
+		text-decoration: none;
+	}
+	
+/*Content Section*/
+.contentcontainer{
+	width: 1460px;
+	height: auto;
+	min-height: calc(100vh - 200px);
+	border: 1px solid #dddddd;
+	background-image: url("~/../../../assets/images/maincontent.png");
+	overflow: auto;
+	font-family: "Arial", "Helvetic Neue", Helvetica, sans-serif;
+	color: #777777;
+}
+
+/*CHANITA NUANSRI ABOUT ME PAGE*/
+	/*Main Content Container*/
+	.maincontent{
+		float: left;
+		margin-left: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 650px;
+		height: auto;
+		background-color: #ffffff;
+		border: 1px solid #dddddd;
+		overflow: auto;
+	}
+		/*About Me Heading*/
+			.maincontentheading{
+				font-size: 30px;
+				color: #4aaaa5;
+				text-align: left;
+				margin: 30px;
+			}
+			/*Line Divide*/
+			hr{
+				margin: 0px 30px 0px 30px;
+			}
+
+		/*About Me Paragraph*/
+			#aboutme{
+				margin: 30px;
+				line-height: 1.5em;
+			}
+
+			/*My Picture*/
+				#my-pic{
+					margin: 0px 20px 0px 0px;
+					float: left;
+				}
+
+/*CHANITA NUANSRI ABOUT ME PAGE END*/
+
+/*PORTFOLIO PAGE*/
+	
+	/*Main Content*/
+	.maincontentborder{
+		margin: 30px;
+	}
+	
+		/*Left Column Images*/
+		.left-pic-container{
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 40px;
+			
+		}
+		
+		/*Right Column Images*/
+		.right-pic-container{
+			float: left;
+			margin-left: 20px;
+			margin-bottom: 40px;
+		}
+
+		/*Picture Description*/
+			.picture-description{
+				width: 275px;
+				max-height: 60px;
+				background-color: #4aaaa5;
+				text-align: center;
+				color: white;
+				font-size: 20px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				margin-top: -60px;
+				position: relative;
+				z-index: 10;	
+			}
+
+		/*Images Position*/
+			.picture-control{
+				position: relative;
+				z-index: 1;
+			}
+/*PORTFOLIO PAGE END*/
+
+
+
+/*CONTACT ME PAGE*/
+
+/*Input Border*/
+	.textinput{
+		margin: 10px 0px 20px 0px;
+	}
+
+/*CONTACT ME PAGE END*/
+
+/*Thank You Page*/
+	/*Thank you tet style*/
+	.Thank-you-Message{
+		font-size: 30px;
+		color: #4aaaa5;
+
+	}
+/*Thank You Page End*/
+
+
+
+	/*Side Content Container*/
+	.sidecontent{
+		float: right;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-right: 200px;
+		width: 270px;
+		height: auto;
+		background-color: #ffffff;
+		border: 1px solid #dddddd;
+	}
+		/*Connect with Me Heading*/
+			.sidecontentheading{
+				font-size: 25px;
+				color: #4aaaa5;
+				text-align: left;
+				margin: 20px 30px 20px 30px;
+			}
+
+			.socialicon{
+				margin: 30px;
+			}
+
+/*Footer Section*/
+.footercontainer{
+	width: 1460px;
+	max-height: 150px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+	/*FOOTER*/
+		footer{
+			clear: both;
+			margin: auto;
+			box-sizing: border-box;
+			border-top-width: 5px;
+			border-top-style: solid;
+			border-top-color: #4aaaa5;
+			background-color: #666666;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+		}
+/*Bonus Hover*/
+a:hover{
+	color: blue;
+}
+

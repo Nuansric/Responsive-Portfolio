@@ -1,0 +1,299 @@
+
+/* Rules for screen widths at 980px or lower */
+@media screen and (max-width: 980px) {
+	/*Body Layout*/
+.bodycontainer{
+	width: 960px;
+}
+
+/*Header Section*/
+.headercontainer{
+	width: 960px;
+}
+
+	/*Navigation Container*/
+	.navigation{
+		float: right;
+		margin: 50px auto auto auto;
+	}
+
+	
+/*Content Section*/
+.contentcontainer{
+	width: 960px;
+	
+}
+
+.maincontent{
+	width: 450px;
+}
+
+/*PORTFOLIO PAGE*/
+	
+	/*Main Content*/
+	.maincontentborder{
+		margin: 30px;
+	}
+	
+	.left-pic-container{
+			float: left;
+
+		}
+		
+		/*Right Column Images*/
+		.right-pic-container{
+			float: left;
+			margin: 0 0 40px 0; 
+		}
+/*PORTFOLIO PAGE END*/
+
+
+
+/*CONTACT ME PAGE*/
+
+/*Input Border*/
+	.textinput{
+		width: 400px;
+	}
+
+	/*Side Content Container*/
+	.sidecontent{
+	
+		margin-right: 30px
+	}	
+
+/*Footer Section*/
+.footercontainer{
+	width: 960px;
+	
+}
+
+	
+
+}
+
+/* Rules for screen widths at 768px or lower */
+@media screen and (max-width: 768px) {
+
+/*Body Layout*/
+.bodycontainer{
+	width: 700px;
+}
+
+/*Header Section*/
+.headercontainer{
+	width: 700px;
+	
+}
+	/*Chanita Nuansri Header Tab*/
+	.nameheader{
+		width: 300px;
+		margin-left: 50px;
+	}
+		/*Chanita Nuansri Font*/
+		#chanitanuansri{
+			font-size: 35px;
+		}
+
+	/*Navigation Container*/
+	.navigation{
+		width: 300px;
+		float: left;
+		}
+
+	/*Psotion Navigation Tabs*/
+	#navcontrol{
+		word-spacing: 5px;
+	}
+	/*Change block to inline element*/
+
+/*Content Section*/
+.contentcontainer{
+	width: 700px;
+	
+}
+
+/*CHANITA NUANSRI ABOUT ME PAGE*/
+	/*Main Content Container*/
+	.maincontent{
+		float: left;
+		margin-left: 50px;
+		width: 635px;
+
+	}
+	
+	.maincontentheading{
+				font-size: 30px;
+				margin: 30px;
+			}
+
+
+
+/*CHANITA NUANSRI ABOUT ME PAGE END*/
+
+/*PORTFOLIO PAGE*/
+	
+	/*Main Content*/
+	.maincontentborder{
+		margin: 20px;
+	}
+	
+	.left-pic-container{
+			float: left;
+			margin-left: 10px;	
+		}
+		
+		/*Right Column Images*/
+		.right-pic-container{
+			float: left;
+			margin-left: 10px;
+		}
+	
+/*PORTFOLIO PAGE END*/
+
+/*Contact Page*/
+
+.textinput{
+		width: 580px;
+	}
+
+
+
+	/*Side Content Container*/
+	.sidecontent{
+		float: left;
+		margin-left: 50px;
+		width: 635px;
+	}
+		
+/*Footer Section*/
+.footercontainer{
+	width: 700px;
+}
+
+
+	
+
+}
+
+/* Rules for screen widths at 640px or lower */
+@media screen and (max-width: 640px) {
+	
+	header{
+		position: static;
+	}
+	
+	/*Body Layout*/
+.bodycontainer{
+	width: 600px;
+}
+
+/*Header Section*/
+.headercontainer{
+	width: 600px;
+	overflow: none;
+	height: auto;
+	
+}
+	/*Chanita Nuansri Header Tab*/
+	.nameheader{
+		width: 600px;
+		margin: 0;
+		float: none;
+		
+	}
+		/*Chanita Nuansri Font*/
+		#chanitanuansri{
+		
+			font-size: 40px;
+		}
+
+		/*Navigation Container*/
+	.navigation{
+		width: 600px;
+		float: none;
+		background-color: #ffffff;
+		border: 1px lightgrey solid;
+		margin: 0;
+		height: auto;
+		
+		}
+
+	/*Psotion Navigation Tabs*/
+	/*Psotion Navigation Tabs*/
+	#navcontrol{
+
+		margin-left: 30px;
+		color: lightgrey;
+		word-spacing: 70px;
+		padding: 20px 40px 20px 40px;
+
+	
+
+	}
+	/*Change block to inline element*/
+
+/*Content Section*/
+.contentcontainer{
+	width: 600px;
+	
+}
+
+/*CHANITA NUANSRI ABOUT ME PAGE*/
+	/*Main Content Container*/
+	.maincontent{
+		float: left;
+		margin-left: 50px;
+		width: 500px;
+	}
+
+/*CHANITA NUANSRI ABOUT ME PAGE END*/
+
+/*PORTFOLIO PAGE*/
+	
+	/*Main Content*/
+	.maincontentborder{
+		margin: 30px;
+	}
+	
+	.left-pic-container{
+			float: left;
+		}
+		
+		/*Right Column Images*/
+		.right-pic-container{
+			float: left;	
+		}
+/*PORTFOLIO PAGE END*/
+
+
+
+/*CONTACT ME PAGE*/
+
+/*Input Border*/
+	.textinput{
+		width: 400px;
+	}
+
+
+
+/*CONTACT ME PAGE END*/
+
+
+
+
+	/*Side Content Container*/
+	.sidecontent{
+		float: left;
+		margin-left: 50px;
+		width: 500px;
+	}
+		
+/*Footer Section*/
+.footercontainer{
+	width: 600px;
+}
+
+
+}
+
